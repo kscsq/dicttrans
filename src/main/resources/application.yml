@@ -1,0 +1,10 @@
+dictionary-replicator:
+  tables: REF_7_2_54
+  #  REF_5_3_1_PROLONGATION:
+  #    constraints: CREATE INDEX IF NOT EXISTS idx_id_5_3_1 ON REF_5_3_1_PROLONGATION(TD_ID, RSA_ID)
+  #  REF_5_3_3_PROLONGATION:
+  #    constraints: CREATE INDEX IF NOT EXISTS idx_ckk_id ON REF_5_3_3_PROLONGATION(CKK_ID)
+  cron: "0 0 11 * * ?"
+  scheduleEnabled: true
+  artifactory:
+    repository: dsa-release-local
